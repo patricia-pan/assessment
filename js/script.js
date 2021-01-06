@@ -2,6 +2,39 @@
 // let subtractButton = document.getElementById("subtract_button") 
 // Because HTML5 is able to recognize DOM elements by just their ID, as long as their ID name has no hyphens in it. Underscores are acceptable.
 
+//// Inverting colors of buttons when you hover over them. ////
+function invertColors(event) {
+    event.target.style.color = 'lightgrey' // Change font color. 
+    event.target.style.backgroundColor = 'teal' // Change button color.
+    event.target.style.borderColor = 'lightgrey'
+}
+
+subtract_button.addEventListener('mouseover', (event) => {
+    invertColors(event)
+})
+
+add_button.addEventListener('mouseover', (event) => {
+    invertColors(event)
+})
+
+//// Returning colors of buttons when you're no longer hovering over them. ////
+
+function revertColors(event) {
+    event.target.style.color = 'teal' // Return to original font color. 
+    event.target.style.backgroundColor = 'lightgrey' // Return to original button color.
+    event.target.style.borderColor = 'teal'
+}
+
+subtract_button.addEventListener('mouseout', (event) => {
+    revertColors(event)
+})
+
+add_button.addEventListener('mouseout', (event) => {
+    revertColors(event)
+})
+
+
+//// Changing the count based on the input and operand you select. ////
 let count = parseInt(count_div.innerText)
 let inputValue = input_box.value
 
