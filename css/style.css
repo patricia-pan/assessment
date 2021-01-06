@@ -2,21 +2,25 @@ body {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    text-align: center;
-
-    font-size: 60px;
+    text-align: center;    
 }
 
 div#count_div {
     margin: 55px;
-    font-weight: bold;
+
+    font-family: 'Roboto', sans-serif;
+    font-size: 70px;
+    font-weight: bold;  
 }
 
 input, button {
     border: 4px solid teal;
     border-radius: 7px;
-    font-size: 60px;
+    margin: 10px;
     text-align: center;
+
+    font-family: 'Roboto', sans-serif;
+    font-size: 60px;
 }
 
 input {
@@ -26,7 +30,8 @@ input {
 
 button {
     background-color: lightgrey; /* Button color. */
-    color: teal; /* Font color. */
     min-width: 60px;
     width: 8%;
+
+    color: teal; /* Font color. */
 }
