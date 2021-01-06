@@ -2,6 +2,8 @@
 
 # Project 1 Assessment
 
+## Link to live project: https://patricia-pan.github.io/p1-assessment/
+
 ## Introduction (By Instructor)
 
 This **Introduction** section will be read in class by the instructor.
