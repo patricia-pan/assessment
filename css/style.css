@@ -1,0 +1,21 @@
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+
+    font-size: 60px;
+}
+
+input, button {
+    font-size: 60px;
+    text-align: center;
+}
+
+input {
+    width: 15%;
+}
+
+button {
+    width: 5%;
+}
