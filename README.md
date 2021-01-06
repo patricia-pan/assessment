@@ -2,7 +2,8 @@
 
 # Project 1 Assessment
 
-## Link to live project: https://patricia-pan.github.io/p1-assessment/
+## Link to live project: 
+https://patricia-pan.github.io/p1-assessment/
 
 ## Introduction (By Instructor)
 
