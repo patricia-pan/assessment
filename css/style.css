@@ -2,7 +2,15 @@ body {
     display: flex;
     flex-direction: column;
     justify-content: center;
+    
     text-align: center;    
+
+    /* Notes on flex below from the assignment URL, https://github.com/patricia-pan/assessment/tree/master: 
+    display: flex;  /* defaults to row layout 
+ 	justify-content: center;  /* centers items horizontally in row layout
+ 	align-items: center;  /* centers vertically in row layout
+    flex-direction: column; will set layout to column instead of row 
+     */
 }
 
 div#count_div {
