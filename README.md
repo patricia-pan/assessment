@@ -5,6 +5,8 @@
 # Link to live project:
 https://patricia-pan.github.io/p1-assessment/
 
+Note: Initial commit history is stored on master branch, before all my code had to be manually copied and pasted over to the main (default) branch due to merge conflicts.
+
 ## Introduction (By Instructor)
 
 This **Introduction** section will be read in class by the instructor.
